@@ -1,0 +1,4 @@
+<launch>
+        <node pkg="control_servo" type="control_movimiento1.py" name="publicador1"/>
+	<node pkg="control_servo" type="listener.py" name="subscriptor1"/>
+</launch>
